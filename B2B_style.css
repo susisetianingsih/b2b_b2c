@@ -1,0 +1,143 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.navbar-brand img {
+    height: 32px;
+}
+/*Jumbotron*/
+.jumbotron {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.9) 100%), url(img/mbiz.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+}
+
+.jumbotron .container{
+    color: white;
+    padding-top: 200px !important;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/*Info Panel*/
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -60px;
+    padding: 30px;
+}
+
+.info-panel h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Definisi*/
+.definisi h4, .jud-tabel h4 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kotak {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+/*Mekanisme Jual Beli*/
+
+.card p {
+    font-size: 15px;
+    font-weight: 30;
+}
+
+/*Mekanisme Pembayaran*/
+ .isi {
+    background-color: rgb(127, 255, 1, 0.5);
+    padding: 30px;
+ }
+
+/*Distribusi*/
+.distri {
+    padding: 35px;
+}
+
+ /*Fitur*/
+.ya {
+    padding: 30px;
+}
+
+.ya b, strong {
+    color: #081e3f;
+}
+
+.ya {
+    background-image: linear-gradient(to right, rgb(0, 255, 255, 0.2), rgb(0, 250, 154, 0.2));
+}
+
+/*Foooter*/
+footer {
+    background-color: #212529;
+}
+
+/*utility*/
+.tombol {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/*about*/
+.about {
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color:  lightgray;
+}
+
+.about .judul {
+    margin-top: 20px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+}
